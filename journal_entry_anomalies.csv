@@ -1,0 +1,201 @@
+Entry_ID,Date,Time,Account_Name,Amount,Description,Created_By,Approved_By,Label_Anomaly
+1,13-06-2023,03:01:47,Suspense,9244,Write-off,user1,user5,1
+2,23-01-2023,18:27:02,Cash,9999,Adjustment,user5,user1,1
+3,24-05-2023,06:45:41,Write-off,14546,,user5,user3,1
+4,02-01-2023,05:44:27,Suspense,14210,,user3,user1,1
+5,24-01-2023,12:06:22,Loan,17435,,user1,user4,1
+6,18-05-2023,03:59:24,Cash,41298,Adjustment,user3,user5,1
+7,19-02-2023,22:04:02,Write-off,19065,Payment received,user2,user1,1
+8,08-04-2023,08:29:40,Loan,24360,Transfer,user2,user3,0
+9,29-06-2023,21:41:04,Inventory,35105,Write-off,user2,user2,1
+10,29-04-2023,12:17:59,Write-off,14492,Write-off,user3,user1,1
+11,28-02-2023,01:51:20,Accounts Receivable,13926,Adjustment,user3,user2,1
+12,17-06-2023,15:25:56,Write-off,17459,Invoice issued,user2,user5,1
+13,18-05-2023,08:47:37,Accounts Receivable,26275,Transfer,user2,user2,1
+14,11-05-2023,15:05:48,Cash,10116,Write-off,user2,user4,0
+15,02-06-2023,02:24:24,Inventory,34776,Transfer,user5,user1,1
+16,24-06-2023,23:07:43,Inventory,42106,Transfer,user1,user3,1
+17,22-04-2023,05:29:00,Write-off,17361,Adjustment,user2,user5,1
+18,28-01-2023,20:19:53,Write-off,13135,Invoice issued,user3,user2,1
+19,19-05-2023,16:58:00,Inventory,1376,Payment received,user3,user3,1
+20,03-03-2023,01:15:56,Inventory,5713,Write-off,user4,user1,1
+21,17-05-2023,04:08:42,Accounts Receivable,10921,Transfer,user5,user5,1
+22,19-04-2023,06:59:34,Loan,13282,Write-off,user3,user4,1
+23,21-06-2023,20:23:28,Inventory,16346,Invoice issued,user1,user3,1
+24,06-01-2023,18:35:14,Inventory,4752,Write-off,user1,user2,0
+25,18-01-2023,01:55:21,Cash,18350,Write-off,user4,user2,1
+26,19-05-2023,04:46:59,Inventory,16025,,user4,user4,1
+27,18-02-2023,03:06:42,Accounts Receivable,27041,,user1,user1,1
+28,16-01-2023,12:46:21,Loan,16395,Invoice issued,user2,user5,0
+29,25-04-2023,04:27:11,Suspense,5040,,user5,user1,1
+30,13-01-2023,20:34:53,Cash,49485,,user2,user2,1
+31,15-04-2023,15:30:13,Loan,3942,Invoice issued,user4,user1,0
+32,10-04-2023,08:59:50,Loan,27822,Write-off,user5,user4,0
+33,09-02-2023,06:18:13,Cash,35633,Payment received,user3,user1,1
+34,13-01-2023,18:30:32,Loan,3827,Adjustment,user1,user2,0
+35,18-01-2023,19:04:43,Loan,7956,Adjustment,user2,user5,1
+36,02-06-2023,01:39:05,Accounts Receivable,37142,Adjustment,user3,user3,1
+37,22-02-2023,21:45:20,Revenue,8677,Write-off,user3,user4,1
+38,22-03-2023,02:00:29,Inventory,6652,Payment received,user5,user2,1
+39,10-05-2023,08:08:59,Suspense,16109,Transfer,user3,user2,1
+40,23-04-2023,17:45:19,Inventory,42958,Adjustment,user1,user5,0
+41,18-03-2023,21:06:56,Revenue,7114,Write-off,user5,user2,1
+42,11-03-2023,09:38:13,Write-off,45155,Write-off,user3,user5,1
+43,06-05-2023,08:57:58,Loan,49999,,user3,user1,1
+44,01-01-2023,10:49:08,Write-off,10689,Write-off,user4,user5,1
+45,30-06-2023,13:35:00,Cash,49999,Invoice issued,user5,user1,1
+46,05-04-2023,18:35:09,Accounts Receivable,20302,Transfer,user1,user3,0
+47,23-02-2023,21:15:42,Cash,36792,,user4,user5,1
+48,09-02-2023,07:55:10,Loan,27120,Payment received,user2,user3,1
+49,16-04-2023,21:55:47,Loan,10533,,user1,user4,1
+50,10-01-2023,15:14:12,Loan,23015,Transfer,user2,user2,1
+51,07-01-2023,21:12:25,Suspense,4649,,user3,user3,1
+52,14-06-2023,16:25:43,Loan,1908,Payment received,user3,user2,0
+53,29-05-2023,08:02:06,Inventory,47845,,user3,user4,1
+54,05-06-2023,16:07:24,Inventory,3008,Write-off,user4,user1,0
+55,14-05-2023,17:43:46,Write-off,13012,Transfer,user4,user1,1
+56,20-06-2023,10:39:20,Write-off,47269,Transfer,user5,user3,1
+57,20-06-2023,13:20:25,Write-off,8441,Invoice issued,user4,user4,1
+58,23-06-2023,23:57:11,Inventory,26712,Adjustment,user1,user3,1
+59,15-03-2023,06:27:50,Inventory,21218,,user4,user4,1
+60,22-06-2023,06:32:30,Loan,48331,Invoice issued,user1,user3,1
+61,12-05-2023,21:40:39,Suspense,9999,Write-off,user3,user2,1
+62,20-02-2023,04:01:02,Revenue,40160,,user1,user4,1
+63,17-04-2023,20:36:12,Write-off,32499,,user2,user2,1
+64,17-06-2023,22:00:57,Loan,7085,,user4,user2,1
+65,15-02-2023,22:33:29,Cash,8053,,user2,user4,1
+66,20-06-2023,16:35:38,Suspense,29104,Adjustment,user5,user4,1
+67,21-05-2023,14:57:10,Write-off,29595,Transfer,user2,user3,1
+68,14-05-2023,15:40:15,Suspense,46862,Transfer,user2,user3,1
+69,27-03-2023,10:57:34,Cash,15255,,user2,user2,1
+70,17-01-2023,13:26:21,Inventory,4180,Invoice issued,user4,user4,1
+71,30-05-2023,22:01:54,Loan,31359,Payment received,user3,user3,1
+72,10-04-2023,13:34:47,Write-off,39634,Invoice issued,user4,user2,1
+73,11-03-2023,13:31:01,Accounts Receivable,44608,,user4,user2,1
+74,30-04-2023,04:39:34,Cash,38890,Adjustment,user1,user1,1
+75,14-06-2023,13:08:55,Accounts Receivable,17149,,user3,user2,1
+76,27-04-2023,10:21:48,Accounts Receivable,27727,Transfer,user1,user4,0
+77,05-01-2023,23:34:03,Suspense,4596,,user1,user1,1
+78,05-03-2023,06:53:01,Inventory,8372,,user1,user5,1
+79,25-02-2023,14:44:16,Loan,39807,Adjustment,user1,user2,0
+80,21-03-2023,03:37:01,Suspense,24696,,user2,user1,1
+81,01-06-2023,22:53:40,Revenue,19864,,user5,user1,1
+82,25-05-2023,01:22:34,Accounts Receivable,4619,Adjustment,user3,user1,1
+83,18-04-2023,15:06:27,Suspense,30229,Write-off,user2,user4,1
+84,15-02-2023,23:33:41,Suspense,35369,,user4,user4,1
+85,22-04-2023,23:37:17,Suspense,5779,Transfer,user4,user2,1
+86,29-04-2023,18:39:42,Accounts Receivable,32494,,user3,user2,1
+87,05-05-2023,06:22:51,Suspense,39169,Write-off,user3,user5,1
+88,03-01-2023,16:12:05,Revenue,32119,Adjustment,user2,user4,0
+89,15-06-2023,22:31:28,Loan,19999,Invoice issued,user4,user2,1
+90,20-03-2023,21:37:23,Accounts Receivable,22628,,user5,user3,1
+91,01-04-2023,22:29:17,Suspense,8007,Write-off,user2,user3,1
+92,31-01-2023,23:34:48,Write-off,14280,Write-off,user4,user3,1
+93,31-05-2023,16:38:18,Cash,19514,Invoice issued,user3,user2,0
+94,19-03-2023,00:45:34,Revenue,3673,Adjustment,user3,user2,1
+95,13-06-2023,15:06:55,Cash,30862,,user4,user3,1
+96,17-02-2023,01:16:55,Accounts Receivable,4382,,user4,user1,1
+97,28-05-2023,20:43:03,Revenue,36986,Transfer,user1,user2,1
+98,31-01-2023,17:48:26,Inventory,40628,Invoice issued,user5,user4,0
+99,26-04-2023,14:19:55,Inventory,20113,Adjustment,user5,user1,0
+100,06-06-2023,23:06:48,Revenue,17443,Write-off,user1,user2,1
+101,03-03-2023,05:35:04,Revenue,19999,Write-off,user5,user4,1
+102,16-03-2023,01:14:18,Write-off,29855,Payment received,user2,user3,1
+103,10-06-2023,18:42:51,Revenue,35788,Invoice issued,user2,user3,0
+104,06-02-2023,02:03:10,Loan,49183,,user5,user3,1
+105,23-04-2023,03:29:44,Suspense,17941,Adjustment,user5,user4,1
+106,23-04-2023,02:38:02,Accounts Receivable,39664,Transfer,user1,user1,1
+107,28-02-2023,21:53:55,Inventory,1459,,user3,user5,1
+108,11-01-2023,05:30:33,Write-off,18329,Invoice issued,user5,user4,1
+109,12-06-2023,15:05:30,Suspense,21140,Write-off,user1,user2,1
+110,26-03-2023,13:44:31,Suspense,26344,,user5,user1,1
+111,27-04-2023,02:20:16,Suspense,26588,,user5,user1,1
+112,18-06-2023,17:29:26,Cash,23809,Adjustment,user4,user4,1
+113,14-01-2023,06:17:35,Revenue,28812,Write-off,user4,user1,1
+114,08-01-2023,20:38:51,Revenue,20465,Adjustment,user1,user5,1
+115,15-04-2023,02:14:53,Cash,7798,Write-off,user2,user4,1
+116,16-03-2023,16:45:17,Accounts Receivable,31047,Invoice issued,user4,user5,0
+117,07-02-2023,12:12:58,Inventory,9046,,user1,user3,1
+118,17-04-2023,10:59:50,Inventory,268,Transfer,user3,user5,0
+119,29-05-2023,21:31:55,Revenue,31841,Transfer,user3,user5,1
+120,20-05-2023,12:29:59,Suspense,45811,Invoice issued,user5,user4,1
+121,01-03-2023,13:02:20,Write-off,25084,,user2,user4,1
+122,10-01-2023,04:32:37,Suspense,28955,Payment received,user5,user4,1
+123,04-01-2023,23:09:26,Loan,10216,Payment received,user4,user3,1
+124,28-03-2023,19:44:25,Write-off,19999,,user5,user4,1
+125,23-03-2023,20:45:56,Loan,35556,Payment received,user5,user1,1
+126,02-03-2023,20:43:58,Suspense,49040,Payment received,user4,user1,1
+127,12-06-2023,22:55:06,Accounts Receivable,19725,Payment received,user1,user3,1
+128,15-01-2023,09:22:23,Accounts Receivable,34910,,user5,user2,1
+129,13-02-2023,05:05:39,Loan,44869,Invoice issued,user4,user5,1
+130,06-02-2023,07:29:40,Suspense,43802,Payment received,user4,user3,1
+131,23-06-2023,17:10:04,Accounts Receivable,38607,Transfer,user4,user3,0
+132,27-04-2023,09:12:24,Loan,15645,,user5,user3,1
+133,28-05-2023,09:44:18,Cash,43237,,user3,user1,1
+134,25-05-2023,21:49:47,Cash,48935,,user3,user2,1
+135,05-06-2023,11:14:40,Revenue,44517,,user2,user1,1
+136,10-06-2023,20:02:19,Loan,38082,Transfer,user2,user1,1
+137,17-03-2023,10:47:26,Revenue,35450,Transfer,user5,user5,1
+138,11-03-2023,05:16:58,Loan,19442,Write-off,user3,user1,1
+139,30-04-2023,02:09:48,Revenue,47562,Write-off,user4,user5,1
+140,04-04-2023,02:50:25,Cash,8199,,user3,user3,1
+141,30-05-2023,12:52:40,Suspense,15423,,user1,user5,1
+142,24-05-2023,10:58:39,Revenue,41741,,user4,user3,1
+143,16-06-2023,13:07:08,Cash,20046,,user1,user1,1
+144,02-03-2023,17:08:24,Accounts Receivable,48802,Write-off,user5,user4,0
+145,31-05-2023,23:46:09,Accounts Receivable,32169,Adjustment,user4,user3,1
+146,09-01-2023,22:23:13,Accounts Receivable,15573,,user3,user1,1
+147,25-06-2023,11:34:57,Write-off,26192,Transfer,user2,user1,1
+148,27-04-2023,02:42:13,Write-off,1499,Payment received,user3,user2,1
+149,02-02-2023,18:13:04,Loan,13676,Adjustment,user2,user2,1
+150,26-03-2023,04:50:57,Inventory,9999,Invoice issued,user5,user3,1
+151,14-02-2023,03:42:55,Cash,23577,,user2,user5,1
+152,24-03-2023,00:11:16,Cash,27688,Adjustment,user1,user1,1
+153,02-05-2023,14:49:23,Inventory,29722,Adjustment,user2,user5,0
+154,12-01-2023,23:50:58,Loan,19867,,user1,user1,1
+155,03-05-2023,12:27:43,Cash,29169,Payment received,user1,user3,0
+156,05-06-2023,04:04:08,Suspense,38462,Adjustment,user3,user4,1
+157,02-06-2023,16:18:29,Inventory,6599,,user1,user5,1
+158,25-02-2023,13:28:56,Revenue,29820,,user4,user1,1
+159,22-03-2023,13:20:42,Suspense,10103,Write-off,user4,user1,1
+160,24-01-2023,02:05:27,Cash,24521,,user2,user5,1
+161,16-01-2023,18:35:35,Suspense,27022,Transfer,user4,user1,1
+162,15-03-2023,19:19:22,Cash,14042,Invoice issued,user4,user2,1
+163,28-01-2023,11:54:35,Suspense,18356,Adjustment,user2,user4,1
+164,24-05-2023,19:39:43,Write-off,40011,Write-off,user3,user1,1
+165,16-02-2023,08:44:48,Suspense,23104,Payment received,user2,user2,1
+166,25-05-2023,21:25:04,Revenue,2109,Payment received,user5,user2,1
+167,07-04-2023,13:29:21,Revenue,47390,Transfer,user5,user5,1
+168,22-01-2023,01:09:10,Loan,44269,Payment received,user3,user4,1
+169,19-06-2023,13:31:38,Accounts Receivable,14227,,user5,user1,1
+170,30-03-2023,13:07:18,Write-off,31991,Adjustment,user3,user1,1
+171,26-02-2023,12:38:03,Cash,13943,,user2,user3,1
+172,16-03-2023,10:07:00,Accounts Receivable,11614,Invoice issued,user4,user5,0
+173,30-06-2023,07:32:35,Loan,23310,Payment received,user4,user1,1
+174,22-04-2023,00:29:58,Cash,37832,,user5,user4,1
+175,13-06-2023,13:18:07,Accounts Receivable,19999,Invoice issued,user5,user4,1
+176,26-06-2023,11:05:27,Loan,28652,Adjustment,user4,user5,0
+177,21-01-2023,12:55:19,Write-off,21927,,user2,user1,1
+178,11-05-2023,20:07:33,Inventory,22996,Transfer,user2,user2,1
+179,27-01-2023,04:16:12,Revenue,49921,,user1,user2,1
+180,10-06-2023,15:29:48,Inventory,29519,Write-off,user5,user5,1
+181,24-03-2023,20:20:09,Accounts Receivable,19999,Write-off,user3,user3,1
+182,01-06-2023,01:22:32,Cash,29716,Payment received,user1,user3,1
+183,15-03-2023,02:41:55,Loan,49999,Adjustment,user4,user4,1
+184,29-05-2023,17:50:47,Cash,37564,Write-off,user2,user3,0
+185,04-06-2023,15:32:09,Cash,22607,Write-off,user1,user5,0
+186,15-06-2023,05:02:15,Write-off,28897,Adjustment,user5,user5,1
+187,10-02-2023,11:23:58,Suspense,22275,Write-off,user5,user1,1
+188,11-06-2023,20:21:04,Suspense,49999,,user3,user3,1
+189,18-06-2023,19:55:09,Suspense,49999,Invoice issued,user3,user3,1
+190,17-06-2023,22:42:25,Revenue,5652,Transfer,user5,user4,1
+191,14-06-2023,10:52:08,Write-off,48516,Write-off,user5,user1,1
+192,15-06-2023,21:27:32,Suspense,19999,Invoice issued,user2,user3,1
+193,05-05-2023,06:14:08,Revenue,9999,Adjustment,user5,user5,1
+194,10-01-2023,21:21:56,Loan,39241,,user2,user2,1
+195,16-02-2023,22:49:39,Loan,47363,,user1,user4,1
+196,04-04-2023,21:46:15,Accounts Receivable,49408,Write-off,user4,user2,1
+197,17-05-2023,07:19:51,Loan,12815,Transfer,user5,user4,1
+198,29-04-2023,09:49:24,Inventory,10720,,user2,user5,1
+199,05-02-2023,08:03:41,Accounts Receivable,36442,Payment received,user5,user1,0
+200,14-03-2023,02:48:10,Suspense,33743,Invoice issued,user4,user1,1

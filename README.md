@@ -45,11 +45,9 @@ This project implements an **SQL-based anomaly detection framework** for journal
 | 2 | Weekend or holiday postings | Outside normal business operations |
 | 3 | Multiple entries posted by same user within short span | May suggest override, batch fraud |
 | 4 | Frequently Recurring Transaction Amounts| Lack of audit trail |
-| 5 | Entries with Missing or Blank Descriptions
- | Dummy or misposted entries |
+| 5 | Entries with Missing or Blank Descriptions | Dummy or misposted entries |
 | 6 | Unauthorized Approvals on Sensitive Accounts| Indicates possible misclassification |
-| 7 | Transactions with Suspicious Dates (Future or Very Old)
-| May indicate split transactions or suppression |
+| 7 | Transactions with Suspicious Dates (Future or Very Old)| May indicate split transactions or suppression |
 | 8 | Benford's Law Analysis| First Digit Distribution|
 | 9 | Analysis of Round Number Transactions| Unusual journal structure or incorrect classification |
 | 10 | Entries affecting P&L and balance sheet simultaneously | Potential unauthorized access |
@@ -102,7 +100,8 @@ This project implements an **SQL-based anomaly detection framework** for journal
   ![Benford's_Law_Analysis(First_Digit_Distribution)](images/Benford's_Law_Analysis(First_Digit_Distribution).png)
 - Critical Control Failure - Entries Approved by the Same User Who Created Them
   ![Critical_Control_Failure-Entries_Approved_by_the_Same_User_Who_Created_Them](images/Critical_Control_Failure-Entries_Approved_by_the_Same_User_Who_Created_Them.png)
-
+- Final Analysis: Top 15 Entries with Highest Anomaly Scores
+  ![Top_15_Entries_with _Highest_Anomaly_Scores](images/Top_15_Entries_with _Highest_Anomaly_Scores.png)
 
 ---
 
@@ -110,7 +109,7 @@ This project implements an **SQL-based anomaly detection framework** for journal
 
 - Internal Audit Journal Entry Testing  
 - External Audit Support (ISA 240-based testing)  
-- SOX ITGC Reviews – Manual Journal Entry control testing  
+- SQL Reviews – Manual Journal Entry control testing  
 - Forensic Pre-Screening for Investigations
 
 ---
@@ -136,15 +135,22 @@ This project implements an **SQL-based anomaly detection framework** for journal
 
 ## 🔎 Key Insights & Findings
 
-**Control Weaknesses & Policy Violations:
+** Control Weaknesses & Policy Violations:
 • Segregation of Duties (SoD) Violations: A critical control failure was identified where the same user who created a journal entry also approved it. The output from "Query 10" lists numerous instances of this, indicating a significant weakness in internal controls that could be exploited.
+
 • Transactions on Weekends: "Query 2" reveals that a substantial number of transactions were posted on Saturdays and Sundays. While this might be legitimate for some businesses, it often warrants further investigation to ensure these are authorized activities.
+
 • Incomplete Documentation: A significant number of entries have missing or blank descriptions, as shown in "Query 5". This is a poor data governance practice that hinders audit trails and transaction understanding.
-**Potential Anomalies & Errors:
+
+** Potential Anomalies & Errors:
+
 • High-Value Transactions: "Query 1" flags the top 10 highest value transactions, with amounts as high as 49,999. These large transactions, especially in accounts like "Suspense" and "Write-off," should be scrutinized.
+
 • Recurring Transaction Amounts: "Query 4" identified that the amount 9999 appeared 6 times. This could indicate potential automation errors, or it might be a pattern that requires a business explanation.
+
 • Benford's Law Deviations: The "First Digit Distribution" from "Query 8" shows some deviations from the expected pattern of Benford's Law. For example, the digit '1' appears 27.0% of the time, while '2' appears 19.0% and '4' appears 20.5%. These might suggest non-natural or manipulated numbers.
-**Summary of Anomalous Transactions
+
+** Summary of Anomalous Transactions:
 The "Final Analysis" provides a consolidated view of the riskiest transactions by combining several anomaly flags. The top entries with the highest anomaly scores exhibit a combination of issues, such as being created and approved by the same user and having no description.
 
 ---

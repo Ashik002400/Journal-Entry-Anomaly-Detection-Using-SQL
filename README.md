@@ -168,6 +168,23 @@ The "Final Analysis" provides a consolidated view of the riskiest transactions b
 
 ## ⚡ Conclusion
 
-This is a rule-based, audit-grade SQL framework for journal entry anomaly detection—purpose-built for financial control environments. Standards-aligned, repeatable, and explainable by design.
+This project demonstrates how targeted, rule-based SQL analytics can surface high-risk journal entries with precision and audit traceability. By operationalizing 10 ISA 240-aligned red flag tests, it bridges the gap between raw ERP data and actionable audit evidence.
+The findings highlight recurring patterns of anomalies—often concentrated around specific users, timeframes, and transaction types—underscoring the importance of robust control environments, access governance, and real-time monitoring.
+
+In a professional audit context, this framework can:
+
+-Accelerate risk-based sampling
+
+-Strengthen fraud detection procedures
+
+-Support regulatory compliance and management assurance
+
+In short, this repository is not just a proof of concept—it’s a deployable audit asset that can be adapted across industries and ERP platforms to proactively identify and address financial reporting risks.
+
+
 
 ---
+## 👤 Author
+Ashik Thomas,
+
+ACCA Part Qualified

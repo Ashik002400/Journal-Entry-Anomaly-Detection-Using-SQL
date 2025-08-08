@@ -135,14 +135,14 @@ This project implements an **SQL-based anomaly detection framework** for journal
 
 ## 🔎 Key Insights & Findings
 
-** Control Weaknesses & Policy Violations:
+**Control Weaknesses & Policy Violations:
 • Segregation of Duties (SoD) Violations: A critical control failure was identified where the same user who created a journal entry also approved it. The output from "Query 10" lists numerous instances of this, indicating a significant weakness in internal controls that could be exploited.
 
 • Transactions on Weekends: "Query 2" reveals that a substantial number of transactions were posted on Saturdays and Sundays. While this might be legitimate for some businesses, it often warrants further investigation to ensure these are authorized activities.
 
 • Incomplete Documentation: A significant number of entries have missing or blank descriptions, as shown in "Query 5". This is a poor data governance practice that hinders audit trails and transaction understanding.
 
-** Potential Anomalies & Errors:
+**Potential Anomalies & Errors:
 
 • High-Value Transactions: "Query 1" flags the top 10 highest value transactions, with amounts as high as 49,999. These large transactions, especially in accounts like "Suspense" and "Write-off," should be scrutinized.
 
@@ -150,7 +150,7 @@ This project implements an **SQL-based anomaly detection framework** for journal
 
 • Benford's Law Deviations: The "First Digit Distribution" from "Query 8" shows some deviations from the expected pattern of Benford's Law. For example, the digit '1' appears 27.0% of the time, while '2' appears 19.0% and '4' appears 20.5%. These might suggest non-natural or manipulated numbers.
 
-** Summary of Anomalous Transactions:
+**Summary of Anomalous Transactions:
 The "Final Analysis" provides a consolidated view of the riskiest transactions by combining several anomaly flags. The top entries with the highest anomaly scores exhibit a combination of issues, such as being created and approved by the same user and having no description.
 
 ---

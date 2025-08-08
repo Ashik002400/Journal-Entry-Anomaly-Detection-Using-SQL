@@ -101,7 +101,7 @@ This project implements an **SQL-based anomaly detection framework** for journal
 - Critical Control Failure - Entries Approved by the Same User Who Created Them
   ![Critical_Control_Failure-Entries_Approved_by_the_Same_User_Who_Created_Them](images/Critical_Control_Failure-Entries_Approved_by_the_Same_User_Who_Created_Them.png)
 - Final Analysis: Top 15 Entries with Highest Anomaly Scores
-  ![Top_15_Entries_with _Highest_Anomaly_Scores](images/Top_15_Entries_with_Highest_Anomaly_Scores.png)
+  ![Top_15_Entries_with_Highest_Anomaly_Scores](images/Top_15_Entries_with_Highest_Anomaly_Scores.png)
 
 ---
 

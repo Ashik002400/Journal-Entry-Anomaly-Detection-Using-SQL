@@ -3,8 +3,10 @@
 
 A rule-based SQL framework to identify anomalous journal entries in financial data. Built to support audit teams, internal controls testing, and fraud detection efforts—fully transparent, standards-aligned, and ready for integration into enterprise audit environments.
 
-> 📌 Practical audit use-case  
-> 🧠 Pure SQL 
+> 📌 Practical audit use-case
+  
+> 🧠 Pure SQL
+
 > ✅ Aligned with ISA 240, 315, 330
 
 ---
